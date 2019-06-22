@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400|Playfair+Display:400,700,400italic|Libre+Baskerville:400,700,400italic|Muli:300,400|Open+Sans:400,300,700|Oswald:400,700|Raleway:400,100,300,700|Montserrat:400,700|Merriweather:400,300,300italic,400italic,700|Bree+Serif|Vollkorn:400italic,400,700|Abril+Fatface|Cardo:400,400italic);
+
+section.hero{
+    min-height: 75vh;
+    height: auto;
+    width:100%;
+	  padding: 15px;
+    position: relative;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.hero h1{
+  line-height: 1;
+  margin-top: 0;
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 2% 0;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.hero h1 span{
+    color: #FF4056;
+    line-height: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero h1{
+        font-size:28px;
+    }
+
+    .hero .container {
+      padding: 0;
+    }
+  }
+
+
+
+
+
+
+  
+  

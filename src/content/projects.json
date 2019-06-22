@@ -1,0 +1,61 @@
+[ 
+    {
+        "id": 1,
+        "title": "Dopweb Website Builder",
+        "content": "Website Builder made with AngularJS and NodeJS, created templates as Google AMP pages",
+        "link": "https://builder.dopweb.com/template",
+        "code":"#",
+        "background": "url(https://dopweb.com/images/bg100.jpg)"
+
+    },
+    {
+        "id": 2,
+        "title": "Dynamic AMP",
+        "content": "A dynamic designed Google AMP template for fast loading site both in desktop and mobile",
+        "link": "https://dopweb.com/master/template/test/",
+        "code":"https://github.com/olsantiago/Dynamic_AMP/blob/master/template-01/index.html",
+        "background": "url(https://dopweb.com/master/template/test/mydop-images/bg1.jpeg)"
+    },
+    {
+        "id": 3,
+        "title": "Feature Booth",
+        "content": "Made with Google AMP. At FeatureBooth, our objective is to ensure that you and those around you have the best time possible.",
+        "link": "https://featurebooth.com/",
+        "code":"#",
+        "background": "url(https://featurebooth.com/mydop-screenshots/desktop.jpeg)"
+    },
+    {
+        "id": 4,
+        "title": "Brough Superior",
+        "content": "The Brough Superior brand has always fascinated motorcycle enthusiasts. Its short and dense history over 21 years, the circumstances of its disappearance, the rarity of its motorcycles...",
+        "link": "https://broughsuperiormotorcycles.us/",
+        "code":"#",
+        "background": "url(https://broughsuperiormotorcycles.us/mydop-screenshots/desktop.jpeg)"
+    },
+    {
+        "id": 5,
+        "title": "Motion Lifestyle",
+        "content": "Get in your luxury vehicle to experience and enjoy all of Los Angeles on a different level.",
+        "link": "https://motionlifestylebh.com/",
+        "code":"#",
+        "background": "url(https://motionlifestylebh.com/mydop-screenshots/desktop.jpeg)"
+    },
+    {
+        "id": 6,
+        "title": "Fabric Sopoglian",
+        "content": "Fabrice Sopoglian is a French entrepreneur in the audiovisual field (cinema and television) in France and the United States. He is known in France for his audacity and his role as animator.",
+        "link": "https://fabricesopoglian.mydopweb.com/",
+        "code":"#",
+        "background": "url(https://fabricesopoglian.mydopweb.com/mydop-screenshots/desktop.jpeg)"
+    },
+    {
+        "id": 7,
+        "title": "Jewels on Wilshire",
+        "content": "Jewels on Wilshire gives you an opportunity to buy, sell, trade and loan Gold, Silver, Platinum, Diamonds and other precious metals and stones. ",
+        "link": "https://jewelsonwilshire.com/",
+        "code":"#",
+        "background": "url(https://jewelsonwilshire.com/mydop-screenshots/desktop.jpeg)"
+    }
+    
+    
+]

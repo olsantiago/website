@@ -1,0 +1,204 @@
+header {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    transition: all .5s ease-out;
+    transition-delay: .2s;
+    z-index: 9999
+}
+
+header.scrolled{
+    background:#000;
+    transition: all .2s ease-out;
+    height: 50px;
+}
+
+
+
+header .burger-container {
+    position: relative;
+    display: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    transition: all .3s cubic-bezier(.4, .01, .165, .99);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+header .burger-container .burger {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: block;
+    margin: -4px auto 0;
+    top: 50%
+}
+
+header .burger-container .burger .bar {
+    width: 100%;
+    height: 1px;
+    display: block;
+    position: relative;
+    background: #fff;
+    transition: all .3s cubic-bezier(.4, .01, .165, .99);
+    transition-delay: 0s
+}
+
+header .burger-container .burger .bar.topBar {
+    -webkit-transform: translateY(0) rotate(0);
+    transform: translateY(0) rotate(0)
+}
+
+header .burger-container .burger .bar.btmBar {
+    -webkit-transform: translateY(6px) rotate(0);
+    transform: translateY(6px) rotate(0)
+}
+
+header .nav-menu ul {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 5%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    margin: 0
+}
+
+header .nav-menu ul li {
+    position: relative;
+    margin: 0 15px
+}
+
+header .nav-menu ul li a {
+    text-decoration: none;
+    color: #fff
+}
+
+header .phone-menu {
+    display: none
+}
+
+header .nav-menu {
+    display: block
+}
+
+header .phone-menu ul {
+    position: relative;
+    display: block;
+    padding: 0 48px 0;
+    list-style: none
+}
+
+header .phone-menu ul li {
+    border-bottom: 1px solid #333;
+    margin-top: 5px;
+    -webkit-transform: scale(1.15) translateY(-30px);
+    transform: scale(1.15) translateY(-30px);
+    opacity: 0;
+    transition: opacity .6s cubic-bezier(.4, .01, .165, .99), -webkit-transform .5s cubic-bezier(.4, .01, .165, .99);
+    transition: transform .5s cubic-bezier(.4, .01, .165, .99), opacity .6s cubic-bezier(.4, .01, .165, .99);
+    transition: transform .5s cubic-bezier(.4, .01, .165, .99), opacity .6s cubic-bezier(.4, .01, .165, .99), -webkit-transform .5s cubic-bezier(.4, .01, .165, .99)
+}
+
+
+
+header .phone-menu ul li a {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 2.35;
+    font-weight: 200;
+    width: 100%;
+}
+
+header.menu-opened {
+    height: 100%;
+    background-color: #000;
+    transition: all .3s ease-in, background .5s ease-in;
+    transition-delay: .25s
+}
+
+header.menu-opened .burger-container {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+header.menu-opened .burger-container .burger .bar {
+    transition: all .4s cubic-bezier(.4, .01, .165, .99);
+    transition-delay: .2s;
+    background:#fff;
+    
+}
+
+header.menu-opened .burger-container .burger .bar.topBar {
+    -webkit-transform: translateY(4px) rotate(45deg);
+    transform: translateY(4px) rotate(45deg);
+
+}
+
+header.menu-opened .burger-container .burger .bar.btmBar {
+    -webkit-transform: translateY(3px) rotate(-45deg);
+    transform: translateY(3px) rotate(-45deg);
+
+}
+
+header.menu-opened .phone-menu ul li {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    opacity: 1
+}
+
+header.menu-opened .phone-menu ul li:nth-child(1) {
+    transition-delay: .27s
+}
+
+header.menu-opened .phone-menu ul li:nth-child(2) {
+    transition-delay: .34s
+}
+
+header.menu-opened .phone-menu ul li:nth-child(3) {
+    transition-delay: .41s
+}
+
+header.menu-opened .phone-menu ul li:nth-child(4) {
+    transition-delay: .48s
+}
+
+header.menu-opened .phone-menu ul li:nth-child(5) {
+    transition-delay: .55s
+}
+
+header.menu-opened .phone-menu ul li:nth-child(6) {
+    transition-delay: .62s
+}
+
+header.menu-opened .phone-menu ul li:nth-child(7) {
+    transition-delay: .69s
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    header .phone-menu {
+        display: block
+    }
+    header .nav-menu {
+        display: none
+    }
+    header .burger-container{
+        display: inline-block;
+    }
+}
