@@ -1,20 +1,20 @@
 [ 
     {
         "id": 1,
+        "title": "SaberEspoder",
+        "content": "A Web Application made with VueJS and VueX",
+        "link": "https://saberespoder.com/",
+        "code":"#",
+        "background": "url(https://saberespoder.com/img/sep_logo.c94726ae.png)"
+    },
+    {
+        "id": 2,
         "title": "Dopweb Website Builder",
         "content": "Website Builder made with AngularJS and NodeJS, created templates as Google AMP pages",
         "link": "https://builder.dopweb.com/template",
         "code":"#",
-        "background": "url(https://dopweb.com/images/bg100.jpg)"
+        "background": "url(https://dopweb.com/mydop-images/img157428097657400.png)"
 
-    },
-    {
-        "id": 2,
-        "title": "Dynamic AMP",
-        "content": "A dynamic designed Google AMP template for fast loading site both in desktop and mobile",
-        "link": "https://dopweb.com/master/template/test/",
-        "code":"https://github.com/olsantiago/Dynamic_AMP/blob/master/template-01/index.html",
-        "background": "url(https://dopweb.com/master/template/test/mydop-images/bg1.jpeg)"
     },
     {
         "id": 3,

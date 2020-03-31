@@ -91,7 +91,8 @@ section.content {
   }
   .card .thumb {
     padding-bottom: 60%;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center center;
   }
 

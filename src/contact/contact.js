@@ -25,7 +25,7 @@ class Contact extends Component {
           <main>
             <div className={"card-section " + [ToggleActive.join(' ')] }>
               <div className="content">
-                <img src="https://media.licdn.com/dms/image/C5603AQGUX4vfn-NE7g/profile-displayphoto-shrink_200_200/0?e=1566432000&v=beta&t=_0zgjInl2dqMimTgbe__-3AgoGoOcQI-HDPP7UEU720" alt="Profile Image"/>
+                <img src={require("../assets/profile.jpeg")} alt="Profile Image"/>
                 <aside>
                   <h1>Oliver Santiago</h1>
                   <p>Everyone is a self-starter, but what did they actually finished? View mine!</p>
